@@ -4,3 +4,5 @@ target
 *.iml
 */logs/
 .DS_Store
+.idea
+_book
