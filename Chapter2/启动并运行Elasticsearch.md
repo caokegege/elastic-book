@@ -112,7 +112,7 @@
 
 > 如果您仅运行单个Elasticsearch实例，则集群状态将保持黄色。单节点群集具有完整的功能，但是无法将数据复制到另一个节点以提供弹性。副本分片必须可用，群集状态为绿色。如果群集状态为红色，则某些数据不可用。
 
-### 谈起Elasticsearch与卷曲的命令[编辑](https://github.com/elastic/elasticsearch/edit/7.x/docs/reference/getting-started.asciidoc)
+### 谈起Elasticsearch与curl的命令
 
 本指南中的大多数示例使您能够复制适当的cURL命令并将请求从命令行提交到本地Elasticsearch实例。
 
