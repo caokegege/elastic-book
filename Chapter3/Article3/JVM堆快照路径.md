@@ -1,0 +1,3 @@
+## JVM堆转储路径
+
+默认情况下，Elasticsearch配置JVM在内存不足或异常的时候dump到默认数据目录中（这是 `/var/lib/elasticsearch`为[RPM](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/rpm.html)和[Debian](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/deb.html)的包分布，并且`data`所述Elasticsearch安装在根目录下的[tar](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/targz.html)和[zip](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/zip-windows.html)归档文件发行） 。如果这个路径是不适合接受堆转储，您应该修改的条目`-XX:HeapDumpPath=...`在 [`jvm.options`](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/jvm-options.html)。如果指定目录，那么JVM将基于正在运行的实例的PID为堆转储生成文件名。如果指定固定文件名而不是目录，则当JVM需要在内存不足异常时执行堆转储时，该文件必须不存在，否则堆转储将失败。
