@@ -17,8 +17,11 @@
 * [设置Elasticsearch](Chapter3/设置Elasticsearch.md)
 * [安装Elasticsearch](Chapter3/安装Elasticsearch.md)
         * [从Linux或MacOS安装Elasticsearch](Chapter3/Article1/从Linux或MacOS安装Elasticsearch.md)
-
-    * [配置Elasticsearch](Chapter3/配置Elasticsearch.md)
-
+* [配置Elasticsearch](Chapter3/配置Elasticsearch.md)
+        * [设置JVM选项](Chapter3/Article2/设置JVM选项.md)
+    * [日志配置](Chapter3/Article2/日志配置.md)
+        * [索引生命周期管理](Chapter3/Article2/索引生命周期管理.md)
+    * [监控设置](Chapter3/Article2/监控设置.md)
+    
 * [第四章](Chapter4/README.md)
 
