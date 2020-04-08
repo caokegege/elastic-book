@@ -16,6 +16,7 @@
     * [配置Elasticsearch](Chapter3/配置Elasticsearch.md)
     * [重要Elasticsearch配置](Chapter3/重要的Elasticsearch配置.md)
     * [重要的系统配置](Chapter3/重要的系统配置.md)
-
+* [引导检查](Chapter3/引导检查.md)
+    
 * [第四章](Chapter4/README.md)
 
