@@ -1,5 +1,3 @@
-[toc]
-
 ## 安装Elasticsearch
 
 ### 托管的Elasticsearch

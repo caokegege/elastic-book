@@ -1,5 +1,3 @@
-[toc]
-
 ## 重要Elasticsearch配置
 
 尽管Elasticsearch需要很少的配置，但是在投入生产之前，需要考虑许多设置。

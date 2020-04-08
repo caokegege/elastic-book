@@ -1,5 +1,3 @@
-[toc]
-
 ## 配置Elasticsearch
 
 Elasticsearch具有良好的默认设置，并且只需要很少的配置。可以使用[群集更新设置](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/cluster-update-settings.html) API 在正在运行的群集上更改大多数设置 。

@@ -1,7 +1,3 @@
-[«可伸缩性和弹性：群集，节点和碎片使](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/scalability.html)[Elasticsearch正常运行»](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/getting-started-install.html)
-
-
-
 # Elasticsearch入门
 
 准备好将Elasticsearch用作测试驱动器，并亲自了解如何使用REST API来存储，搜索和分析数据？
