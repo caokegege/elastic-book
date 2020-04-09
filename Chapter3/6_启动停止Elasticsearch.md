@@ -73,18 +73,17 @@ $ cat /tmp/elasticsearch-pid && echo
 $ kill -SIGTERM 15516
 ```
 
-
-
 ### 停止致命错误
 
 在Elasticsearch虚拟机的生命周期内，可能会出现某些致命错误，使虚拟机处于可疑状态。此类致命错误包括内存不足错误，虚拟机内部错误以及严重的I / O错误。
 
 当Elasticsearch检测到虚拟机遇到此类致命错误时，Elasticsearch将尝试记录该错误，然后停止该虚拟机。当Elasticsearch启动此类关闭时，它不会如上所述进行有序关闭。Elasticsearch流程还将返回一个特殊的状态代码，以指示错误的性质。
 
+|错误 | |代码|
+|---|---|---|
 | JVM internal error            | JVM内部错误      | 128  |
-| ----------------------------- | ---------------- | ---- |
 | Out of memory error           | 内存不足错误     | 127  |
 | Stack overflow error          | 堆栈溢出错误     | 126  |
 | Unknown virtual machine error | 未知的虚拟机错误 | 125  |
 | Serious I/O error             | 严重的I / O错误  | 124  |
-| Unknown fatal error           | 未知的致命错误   | 1个  |
+| Unknown fatal error           | 未知的致命错误   | 1    |
