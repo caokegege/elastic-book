@@ -20,5 +20,6 @@
     * [重要的系统配置](Chapter3/4_重要的系统配置.md)
     
     * [引导检查](Chapter3/5_引导检查.md)
+    * [启动停止Elasticsearch](Chapter3/6_启动停止Elasticsearch.md)
 * [第四章](Chapter4/README.md)
 
