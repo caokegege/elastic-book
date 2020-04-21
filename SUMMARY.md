@@ -1,19 +1,22 @@
 # Summary
 
 * [Introduction](README.md)
+
 * [Elasticsearch简介](Chapter1/Elasticsearch简介.md)
-    
+  
     * [数据输入：文档和索引](Chapter1/1_数据输入：文档和索引.md)
     * [信息输出：搜索和分析](Chapter1/2_信息输出：搜索和分析.md)
     * [可扩展性和弹性](Chapter1/3_可扩展性和弹性.md)
+    
 * [Elasticsearch入门](Chapter2/Elasticsearch入门.md)
   
     * [启动并运行Elasticsearch](Chapter2/1_启动并运行Elasticsearch.md)
     * [索引一些文档](Chapter2/2_索引一些文档.md)
     * [开始搜索](Chapter2/3_开始搜索.md)
     * [分析汇总结果](Chapter2/4_分析汇总结果.md)
-* [设置Elasticsearch](Chapter3/设置Elasticsearch.md)
     
+* [设置Elasticsearch](Chapter3/设置Elasticsearch.md)
+  
     * [安装Elasticsearch](Chapter3/1_安装Elasticsearch.md)
     * [配置Elasticsearch](Chapter3/2_配置Elasticsearch.md)
     * [重要Elasticsearch配置](Chapter3/3_重要的Elasticsearch配置.md)
@@ -22,5 +25,8 @@
     * [引导检查](Chapter3/5_引导检查.md)
     * [启动停止Elasticsearch](Chapter3/6_启动停止Elasticsearch.md)
     * [全集群重启和滚动重启.md](Chapter3/7_全集群重启和滚动重启.md)
-* [第四章](Chapter4/聚合.md)
+    
+* [聚合](Chapter4/聚合.md)
+
+    * [指标聚合](Chapter4/1_指标聚合)
 
